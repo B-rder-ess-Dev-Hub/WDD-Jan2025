@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-/* The line above already imports the required typeface for you */
 
 * {
     margin: 0;
@@ -23,16 +22,14 @@
 body {
     font-family: "Inter", sans-serif;
     background-color: var(--silver-background-color);
-    background-color: white; /* Remove this line. It's just an example to show you how to use the color variables */
+    background-color: white;
 }
 
 ul li{
     list-style: none;
 }
 
-/* The rest of your CSS goes here */
-
-header {
+.nav-bar {
     display: flex;
     padding-block: 45px;
     padding-inline: 130px;
@@ -103,12 +100,12 @@ header div ul {
     margin-top: -10px;
 }
 
-.hero-section-texts {
+.hero-section-texts, .first {
     display: grid;
     gap: 22px;
 }
 
-.hero-section-texts h1 {
+.hero-section-texts h1, .first h1{
     font-size: 45px;
     font-weight: 600;
     line-height: 52px;
@@ -210,6 +207,15 @@ header div ul {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.unlock-text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 460px;
+    margin-right: 17%;
 }
 
 .unlock-text-content h1 {
@@ -231,19 +237,6 @@ header div ul {
     font-size: 11px;
     font-weight: 500;
 }
-
-.sec-three {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 202px;
-    width: 100%;
-    padding-block: 45px;
-    padding-inline: 130px;
-    margin: 0 auto;
-    background-color: #F5F7FA;
-}
-
 .achievement-texts {
     display: flex;
     flex-direction: column;
@@ -297,13 +290,13 @@ header div ul {
     gap: 20px;
 }
 
-.sec-fives{
+.sec-fives, .sec-three{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 54px;
     margin: 0 auto;
-    width: 100%;
+    max-width: 100%;
     background-color: #F5F7FA;
     padding: 22px 120px;
 }
@@ -354,9 +347,10 @@ header div ul {
 
 .sec-six {
     gap: 11px;
+    justify-content: center;
 }
 
-.sec-six p {
+.sec-six .sec-six-p {
     width: 438px;
     text-align: center;
 }
@@ -364,7 +358,7 @@ header div ul {
 .community-updates-img {
     display: flex;
     gap: 20px;
-    /* padding-inline: 140px; */
+    margin-bottom: 40px;
 }
 
 .try {
@@ -372,49 +366,54 @@ header div ul {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    margin-bottom: 40px;
 }
 
-.try img {
+.try-img {
     width: 256px;
     height: 199px;
     border-radius: 6px;
+    position: relative;
+}
+
+.try-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
 }
 
 .try-text {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    box-shadow: 0 1.4px 2.8px #ABBED133;
     gap: 11px;
     height: 124px;
     width: 220px;
-    /* align-items: center;
-    gap: 11px;
-    height: 124px;
-    width: 220px;
-    padding: 11px; */
     background-color: #F5F7FA;
-    background-color: #4CAF4F;
     border-radius: 6px;
+    padding: 11px;
+    position: absolute;
+    top: 70%;
 }
 
-.try-text p{
+.try-text h3{
     text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #717171;
 }
 
-
-
-
-
-
-
-
-
+.try-text .green {
+    color: #4CAF4F;
+}
 
 footer {
-    width: 80%;
+    padding-top: 40px;
+    width: 100%;
     margin: 0 auto;
- 
-    /* justify-content: center; */
 }
 
 .first {
@@ -423,24 +422,95 @@ footer {
     align-items: center;
 }
 
-footer h1 {
+.first h1 {
+    color: #263238;
     text-align: center;
+}
+
+footer .register-btn {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 17px;
+    margin-bottom: 27px;
+
 }
 
 .final-content {
     display: flex;
     justify-content: space-between;
+    background-color: #263238;
+    padding-block: 45px;
+    padding-inline: 115px;
+    gap: 87px;
+}
+
+.reserved {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.reserved .copyright-1{
+    margin-bottom: 8px;
+}
+
+.copyright p{
+    color: var(--silver-background-color);
+    font-weight: 400;
+    line-height: 14px;
+    font-size: 12px;
 }
 
 .links {
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
-/* 
-footer button {
-    margin: 0 auto;
+
+.links div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
- */
+
+.links div h1 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--white-color);
+}
+
+.links div ul li a {
+    text-decoration: none;
+    color: var(--silver-background-color);
+    font-weight: 400;
+    line-height: 14px;
+    font-size: 12px;
+}
+
+.links div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sns-logos {
+    display: flex;
+    gap: 14px;
+}
+
+#email {
+    padding: 10px;
+    background-color: var(--d_grey-color);
+    border: none;
+    border-radius: 5px;
+}
+
+#email ::placeholder {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #D9DBE1;
+}
 
 
 
@@ -449,15 +519,16 @@ footer button {
 
 
 
+/* Media Queries */
 
-@media (max-width: 425px) {
+@media (max-width: 480px) {
 
-    header {
-        width: 80%;
-        padding: 0;
+    .nav-bar {
+        width: 100%;
+        padding: 10%;
     }
 
-    header div {
+    .nav-bar div {
         display: none;
     }
 
@@ -481,12 +552,78 @@ footer button {
         flex-wrap: wrap;
     }
 
-    .sec-fives {
+    .sec-fives, .sec-three {
         flex-wrap: wrap;
-        padding: auto;
+        padding: 10%;
+        height: auto;
+        width: auto;
+    }
+
+    .customers-text-content {
+        max-width: 100%;
+    }
+
+    .bottom-logos {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .community-updates-img {
+        flex-wrap: wrap;
+    }
+
+    .sec-six .sec-six-p {
+        width: auto;
+    }
+
+    .try {
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .try-text {
+        top: 60%;
+    }
+
+    .final-content {
+        flex-direction: column;
+        gap: 16px;
+        padding-inline: 10%;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+
+    .hero-section-texts h1, .first h1{
+        font-size: 33px;
+        font-weight: 600;
+        line-height: 45px;
     }
 }
 
-@media (min-width: 426px) and (max-width: 752px) {
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .customers-text-content {
+        max-width: 100%;
+    }
+
+    .bottom-logos {
+        flex-direction: column;
+        gap: 14px;
+    }
     
+    .community-updates-img {
+        flex-wrap: wrap;
+    }
+
+    .try {
+        margin: auto;
+        margin-bottom: 0;
+        padding: 10%;
+    }
+
+    .nav-bar div {
+        display: none;
+    }
 }
