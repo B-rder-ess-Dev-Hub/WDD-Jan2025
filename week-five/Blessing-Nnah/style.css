@@ -192,6 +192,7 @@ html {
     color: var(--white-color);
 }
 /* help */
+/* i did not get this part right */
 .help {
     background-color: var(--silver-background-color);
     padding: 7rem 0rem;
