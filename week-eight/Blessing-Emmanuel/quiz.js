@@ -34,32 +34,32 @@
 
 
     // TODO 6A: Use a for loop to add a click event listener to each of the optionButtons
-  
-
-
 for (let i = 0; i < optionButtons.length; i++) {
     optionButtons[i].addEventListener('click', function() {
-        console.log(`Button ${i + 1} clicked!`);
+        console.log(`Button ${i + 1} clicked`);
+    });
+}
+    
+    // TODO 6B: Within the event handler function, display the fact's explanation by setting the text of the explanation element
+for (let i = 0; i < optionButtons.length; i++) {
+    optionButtons[i].addEventListener('click', function() {
+        explanationElement.textContent = explanations[i];
     });
 }
 
-    // TODO 6B: Within the event handler function, display the fact's explanation by setting the text of the explanation element
-    for (let i = 0; i < optionButtons.length; i++) {
-        optionButtons[i].addEventListener('click', function() {
-            explanationElement.textContent = explanations[i];
-        });
-    }
-    
 
     // TODO 7: Within the event handler function, 
         // Use a for loop to disable all the option buttons
 
-        for (let i = 0; i < optionButtons.length; i++) {
-            optionButtons[i].disabled = true;
-        };
+        function disableOptions() {
+            let options = document.querySelectorAll(); 
+            for (let option of options) {
+                option.disabled = true; 
+            }
+        }
 
-        
-        
+
+
     // TODO 8: Within the event handler function,
         // Get the guessed value from the clicked button
         // Use a conditional to compare the guess to the fact's answer
