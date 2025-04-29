@@ -2,6 +2,7 @@ body {
     margin: 1rem auto;
     padding: 3rem;
     font-family: sans-serif;
+    background-color: blue;
 }
 
 header {
@@ -17,6 +18,15 @@ main {
     flex-direction: column;
 }
 
+#container{
+    background-color: white;
+    justify-content: center;
+    display: block;
+    border-radius: 0.5rem;
+    width: auto;
+    padding-block: 2rem;
+    padding-inline: 2rem;
+}
 #statement {
     border: 1px solid black;
     border-radius: 0.5rem;
@@ -43,12 +53,17 @@ button {
     padding: 0.5rem;
     font-size: medium;
     border-radius: 5px;
+    margin-bottom: 0.5em;
+    
+}
+button hover{
+    background-color: blue;
 }
 
 .correct {
-    background-color: lightgreen;
+    background-color: blue;
 }
 
 .incorrect {
-    background-color: lightpink;
+    background-color: red;
 }
