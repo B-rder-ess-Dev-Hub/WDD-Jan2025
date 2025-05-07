@@ -1,11 +1,12 @@
-import NavBar from "./components/NavBar"
+import NavBar from "./components/NavBar";
+import Body from "./components/Body";
 
 const App = () => {
   return (
     <div className="container mx-auto">
-      <NavBar/>
+      <NavBar />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
