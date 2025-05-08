@@ -1,6 +1,29 @@
 h1 {
     color: #3498DB;
-    background-color: #D9D9D9CC;
     font-style: Poppins;
     font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    padding: 10px;
+    margin-left: 30px;
+}
+.container {
+    background-color: #D9D9D9CC;
+    margin-left: 40px;
+    border-radius: 20px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+   
+}
+button {
+    background-color: #2C3E50;
+    font-style: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 60px;
+    color: #FFFFFF;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 20px;
 }

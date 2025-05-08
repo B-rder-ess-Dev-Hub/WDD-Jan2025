@@ -2,10 +2,11 @@ import './Body.css';
 
 function Body() {
   return (
-  <h1>
-   <div> Grab Upto 5% Off </div>
-    <div>On Selected Shoe</div>
-    </h1>
+  <div class="container">
+   <h1> Grab Upto 5% Off On</h1>
+    <h1> Selected Shoe</h1>
+    <button>Buy Now</button>
+    </div>
   );
 }
 
