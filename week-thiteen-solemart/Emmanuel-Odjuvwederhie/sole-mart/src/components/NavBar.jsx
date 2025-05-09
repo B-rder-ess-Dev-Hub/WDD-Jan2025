@@ -18,9 +18,7 @@ const NavBar = () => {
                 )
                 )}
             </ul>
-            <div>
-                <img src="/frame.png" alt=""/>
-            </div>
+            <div></div>
         </nav>
     )
 }
