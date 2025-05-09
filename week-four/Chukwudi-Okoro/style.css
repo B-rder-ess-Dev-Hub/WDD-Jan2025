@@ -1,0 +1,108 @@
+body {
+    background-color: #101319;
+    margin: 0;
+}
+#Profile_Icon.jpg {
+    border-radius: 50%;
+}
+#Google-Logo {
+  max-width: 100%;
+  object-fit: contain;
+}
+#search-bar{
+    border-radius: 25px;
+    border: none;
+    width: 40%;
+    padding: 15px 45px;
+    outline: none;
+    background: #3f4555;
+  }
+  #Icon1 {
+    position: absolute;
+    left: 27.9%;
+    top: 29%;
+  }
+  #Icon2 {
+    position: absolute;
+    left: 67%;
+    top: 30%;
+  }
+  #Icon3 {
+    position: absolute;
+    left: 70%;
+    top: 29%;
+  }
+.button {
+    background-color: #3f4555;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px ;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .buttons {
+    text-align: center;
+  }
+#one {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+#two {
+  position: relative;
+}
+#three {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 13px;
+    a {
+        text-decoration: none;
+        color: #6f91ce;
+    }
+}
+.body {
+  text-align: center;
+}
+#four {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    text-indent: 2.35%
+}
+#five {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+.footer-top {
+    background-color: #1f2128;
+    position: fixed;
+    bottom: 8%;
+    width: 100%;
+    height: 8%;
+    border-bottom: 1px solid #757b84;
+  }
+  .footer-bottom {
+    background-color: #1f2128;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 8%;
+  }

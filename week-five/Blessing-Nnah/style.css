@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* The line above already imports the required typeface for you */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Color variables declared below */
+
+:root {
+    --primary-color: #28CB8B;  /* Primary */
+    --secondary-color: #263238; /* Secondary */
+    --d_grey-color: #4D4D4D; /* D_Grey */
+    --grey-color: #717171; /* Grey */
+    --light-grey-color: #89939E; /* L_Grey */
+    --white-color: #FFFFFF; /* White */
+    --silver-background-color: #F5F7FA; /* Silver background*/
+}
+
+body {
+    font-family: "Inter", sans-serif;
+   font-size: 1.6rem;
+}
+
+/* The rest of your CSS goes here */
+html {
+    font-size: 10px;
+}
+.container {
+    max-width: 104rem;
+    margin: 0 auto;
+    padding: 0rem 1.5rem;
+}
+/* nav */
+.nav {
+    width: 100%;
+    height: 8rem;
+    background-color: var(--white-color);
+}
+.nav-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+.nav-item {
+    margin: 0rem 0.7rem;
+}
+.nav-link {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+}
+.nav-button {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 1rem 1.5rem;
+    color: var(--white-color);
+    border-radius: 0.6rem;
+}
+/* header */
+.header {
+    width: 100%;
+    height: calc(100vh - 8rem);
+    background-color: var(--silver-background-color);
+}
+.header-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header-container-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.header-text {
+    width: 65%;
+}
+.header-img {
+    width: 35%;
+}
+.header-title {
+    font-size: 6.2rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+    line-height: 7.5rem;
+}
+.header-title > span {
+    color: var(--primary-color);
+}
+.header-text {
+    color: var(--secondary-color);
+    margin: 2rem 1rem;
+}
+.header-button {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    letter-spacing: 1.2px;
+    border-radius: 0.4rem;
+}
+/* section */
+.section {
+    padding-top: 10rem;
+}
+.client-container {
+    text-align: center;
+}
+.section-header {
+    margin-bottom: 5rem;
+}
+.section-title {
+    font-size: 3.6rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+    text-align: center;
+}
+.section-text {
+    color: var(--secondary-color);
+    text-align: center;
+}
+.client-wrapper {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.client-wrapper > span {
+    text-align: center;
+}
+/* services */
+/* i did not get this part right */
+.services {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ /* grid-template-columns: repeat(auto-fit, minmax(20rem,1fr));
+    grid-gap: 4rem; */
+}
+.service {
+    padding: 2rem 0.7rem;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.144);
+}
+.service-title {
+    color: var(--secondary-color);
+    margin: 1rem 0rem;
+}
+.service-text {
+    color: var(--secondary-color);
+}
+/* experience */
+.experience-container {
+    width: 300%;
+    display: flex;
+    align-items: center;
+}
+.experience-image {
+    width: 40%;
+}
+.expericen-text {
+    width: 70%;
+    margin-left: 3rem;
+}
+.experience-title {
+    font-size: 4rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+.experience-text {
+    margin: 1.5rem 1rem 2.5rem 0rem;
+    color: var(--secondary-color);
+}
+.experience-button {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 1rem 2rem;
+    border-radius: 0.4rem;
+    color: var(--white-color);
+}
+/* help */
+.help {
+    background-color: var(--silver-background-color);
+    padding: 7rem 0rem;
+    width: 100%;
+    
+}
+.help-container {
+    width: 100%;
+    height: 100%;
+     display: flex;
+    align-items: center; 
+}
+.help-heading { 
+    width: 45%;
+}
+.help-title {
+    margin-left: 1rem;
+    font-size: 3.8rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+.help-title > span {
+    color: var(--primary-color);
+}
+.help-content {
+    width: 55%;
+    margin-left: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    
+}
+.help-item {
+    display: flex;
+    align-items: center;
+    
+}
+.help-item-text {
+    margin-left: 2rem;
+}   
+/* tesimonial */
+.testimonial {
+background-color: var(--silver-background-color);
+padding: 7rem 0rem;
+}
+.testimonial-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.test-content {
+    width: 65%;
+    margin-left: 4rem;
+}
+.test-p {
+    margin-bottom: 2rem;
+    color: var(--secondary-color);
+}
+.test-name {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+.test-destination {
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+.test-logos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.test-link {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+/* blog-container */
+/* i did not get this part right */
+
+.blog-container > .section-header {
+    text-align: center;
+}
+.blogs {
+    margin-top: 3rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    
+}
+.blog-item {
+    width: 100%;
+}
+.blog-item > img {
+    object-fit: cover;
+    border-radius: 1rem;
+}
+.blog-body {
+    width: 90%;
+    background-color: var(--silver-background-color);
+    padding: 1.2rem;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.144);
+    margin: 0 auto;
+    border-radius: 0.4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+} 
+.blog-title {
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+
+}
+.blog-link {
+    text-decoration: none;
+    color: var(--primary-color);
+} 
+/* demo */
+.demo {
+    background-color: var(--silver-background-color);
+    padding: 7rem 0rem;
+}
+.demo-container {
+    width: 100%;
+    text-align: center;
+}
+.demo-title {
+    font-size: 4.8rem;
+    color: var(--secondary-color);
+    margin-bottom: 4rem;
+}
+.demo-button {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 1.2rem 2rem;
+    border-radius: 0.5rem;
+}
+/* footer */
+footer {
+    padding: 7rem;
+    background-color: var(--secondary-color);
+}
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-items-title {
+    color: var(--white-color);
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.footer-copy {
+    margin: 2rem 0rem;
+    color: var(--white-color);
+    font-size: 1rem;
+}
+.footer-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.footer-icon {
+    padding: 1rem;
+}
+.footer-company-list {
+    margin-top: 2rem;
+    list-style: none;
+}
+.footer-company-link {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 1.4rem;
+    margin: 0.5rem 0rem;
+}
+.footer-surport-list {
+    list-style: none;
+    margin-top: 2rem;
+}
+.footer-surport-link {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 1.4rem;
+    margin: 0.5rem 0rem;
+}
+.footer-update {
+    background-color: var(--grey-color);
+    padding: 0.6rem;
+}
+.footer-update-input {
+    padding: 0.4rem;
+    border: none;
+    outline: none;
+    width: 80%;
+    background-color: var(--silver-background-color)
+
+}
+.footer-update > span {
+    cursor: pointer;
+}
+.stay {
+    margin-bottom: 2rem;
+}
+

@@ -1,0 +1,77 @@
+h1 {
+    color: rgb(102, 100, 100);
+    text-align: center;
+    width: 40%;
+}
+button {
+    padding: 20px 35px;
+    text-align: start;
+    width: 68%;
+    color: rgb(241, 245, 247);
+    text-decoration: none;
+    background-color: #047eaa; /* Green */
+    display: inline-block;
+    font-size: 12px;
+}
+form {
+    text-align: start;
+    width: 50%;
+    padding: 20px;
+    margin: 10px 0;
+    box-sizing: content-box;
+    margin: 20px;
+}
+
+input[type=email] {
+    width: 60%;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: start;
+  }
+input[type=password] {
+    width: 60%;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: start;
+    
+}
+
+label {
+    text-align: start;
+    width: 0%;
+    padding: 12px 20px;
+    margin: 8px 0;
+
+}
+div {
+    text-align: start;
+    border: none;
+}
+
+a {
+    color: rgb(4, 89, 113);
+    text-decoration: none;
+}
+
+p {
+   
+    width: 50;
+    margin: 8px 0;
+}
+
+body {
+    background-color: aliceblue;
+    
+    
+}
+    
+html {
+    background-color: rgb(16, 95, 148);
+}
+input[type=checkbox] {
+    text-align: start;
+    
+}
+
+
+

@@ -1,0 +1,58 @@
+body{
+background-color: #056c98;
+display: flex;
+justify-content: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+  
+.login-container {
+    
+    background-color: white;
+    text-align: left;
+    padding: 10em 10em 10em 10em;
+    margin-top: 3em;
+    position: relative;
+    padding: 5%;
+    border-radius: 1em;
+}
+h1{
+    text-align: center;
+}
+button{
+    padding: 1.2em 17em;
+    margin: 0em 0em 2em 0em;
+    background-color: #177491;
+    color: aliceblue;
+    outline: white;
+    border-color: white;
+}
+
+.main_box{
+    padding: 1em 23em ;
+    margin: 0em 0em 2em 0em;
+    text-align: left;
+}
+
+.secondary_box{
+text-align: center;
+margin: 1em 0em 1em 0em;
+}
+
+#sign_up{
+text-align:center;
+margin: 1em 0em 1 0;
+}
+
+.checkbox{
+    margin: 0em 1em 1em 0em;
+}
+
+a{
+    color: #177491;
+}
+:placeholder-shown{
+    text-align: left;
+    margin: 0em 0em 2em 0em;
+    padding-left: 1em;
+    
+} 

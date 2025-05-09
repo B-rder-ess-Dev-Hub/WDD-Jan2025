@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* The line above already imports the required typeface for you */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Color variables declared below */
+
+:root {
+    --primary-color: #4CAF4F;
+    /* Primary */
+    --secondary-color: #263238;
+    /* Secondary */
+    --d_grey-color: #4D4D4D;
+    /* D_Grey */
+    --grey-color: #717171;
+    /* Grey */
+    --light-grey-color: #89939E;
+    /* L_Grey */
+    --white-color: #FFFFFF;
+    /* White */
+    --silver-background-color: #F5F7FA;
+    /* Silver background*/
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    /* background-color: var(--silver-background-color); Remove this line. It's just an example to show you how to use the color variables */
+}
+
+.container {
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 0 1em;
+}
+
+button {
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--white-color);
+    padding: 1.1em 1.85em;
+    border-radius: 0.25em;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+nav {
+    background-color: var(--white-color);
+}
+
+.nav-wrapper {
+    padding-block: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.nav-links a {
+    color: var(--d_grey-color);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo img {
+    width: 150%;
+}
+
+/* Header section */
+
+header {
+    background-color: var(--silver-background-color);
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    padding: 4em 0;
+}
+
+.header-wrapper .left {
+    width: 60%;
+}
+
+.header-wrapper .left h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--d_grey-color);
+}
+
+.header-wrapper .left h1 span {
+    color: var(--primary-color);
+}
+
+.header-wrapper .left p {
+    font-size: 1.125rem;
+    color: var(--grey-color);
+    margin-block: 1.5em;
+}
+
+.header-wrapper .right {
+    width: 35%;
+}
+
+.header-wrapper .right img {
+    width: 100%;
+    margin-inline: auto;
+}
+
+.our-client, .card-section {
+    background-color: var(--white-color);
+    padding-block: 4em;
+}
+
+.client-wrapper h2, .client-wrapper p, .card-section-wrapper h2, .card-section-wrapper p {
+    text-align: center;
+}
+
+.client-wrapper h2, .card-section-wrapper h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--d_grey-color);
+    max-width: 600px;
+    margin-inline: auto;
+}
+
+.client-wrapper p, .card-section-wrapper p {
+    font-size: 1rem;
+    color: var(--grey-color);
+    margin-block: 1em;
+}
+
+.client-logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 7em;
+    margin-top: 2em;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    padding: 2em;
+    border-radius: 0.5em;
+}
+
+.card h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--d_grey-color);
+    text-align: center;
+    padding-inline: 1em;
+}

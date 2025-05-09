@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #201f24;
+    margin: 0;
+    text-align: center;
+
+}
+
+a { 
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+ 
+container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 50%;
+  min-height: 100vh;
+}
+
+.google{
+  flex: 1;
+  padding: 8px;
+  color: white;
+}
+
+.nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.nav ul li{
+  margin-right: 15px;
+  font-size: 1.2rem;
+}
+
+.google h1{
+  font-size: 6rem;
+  margin-bottom: 21px;
+  margin-top: 270px;
+  align-items: center;
+
+}
+
+.google centered{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;     
+  align-content: center;  
+  top: 20%;                                                                                                                                    
+}
+
+.search-container{
+  position: 20 ;
+  margin-bottom: 20px ;
+  
+  border-radius: 50px;
+  size: 2000px;
+  background: transparent;
+}
+
+
+.class1{
+  justify-items: center;
+  text-align: center;
+}
+
+.icon1{
+  position: relative;
+  left: 25px;
+  bottom: -3px;
+}
+.icon2{
+  position: relative;
+  right: 40px;
+  bottom: -2px;
+}
+
+.icon3{
+  position: relative;
+  right: 40px;
+  bottom: -2px;
+}
+
+.Button{
+  padding: 10px;
+  border-radius: 20rem;
+  margin-block: 10px;
+  margin-inline: 10px;
+}
+.lang-div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.lang-div p {
+  color:#171717;
+}
+
+.languages ul {
+  display: flex;
+  gap: 6px;
+}
+.languages ul li a{
+  color: rgb(73, 73, 197);
+  align-items: center;
+
+}
+
+footer {
+  background: #0202022a;
+  bottom: 100%;
+  margin-top: 15em ;
+  
+}
+
+.country {
+  display: flex;
+  color: #c3c3c3;
+  font-size: x-large;
+  align-items: flex-start;
+
+}
+
+
+.footer1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+  flex-wrap: wrap;
+}
+
+.footer-1 ul,
+
+.footer-3 ul {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 5px;
+  color: #c3c3c3;
+  font-size: x-large;
+}
+
+.footer-2 {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #c3c3c3;
+  font-size: x-large;
+}
+
+
+
+.footer-3{
+  display:flex ;
+  align-items: flex-end;
+  gap: 15px;
+}
+
+.footer-1{
+  display: flex;
+  align-items: f;
+  color: #c3c3c3;
+  font-size: x-large;
+
+}

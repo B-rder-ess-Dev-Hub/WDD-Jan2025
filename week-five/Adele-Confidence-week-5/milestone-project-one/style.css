@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* The line above already imports the required typeface for you */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Color variables declared below */
+
+:root {
+    --primary-color: #28CB8B;  /* Primary */
+    --secondary-color: #263238; /* Secondary */
+    --d_grey-color: #4D4D4D; /* D_Grey */
+    --grey-color: #717171; /* Grey */
+    --light-grey-color: #89939E; /* L_Grey */
+    --white-color: #FFFFFF; /* White */
+    --silver-background-color: #F5F7FA; /* Silver background*/
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--silver-background-color); /* Remove this line. It's just an example to show you how to use the color variables */
+
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: auto;
+    background-color: rgb(219, 211, 211);
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    max-height: auto;
+    
+}
+  .header{
+    color: white;
+    margin-right: 100%;
+    text-align: left;
+    margin-bottom: 1px;
+   
+}
+ 
+.sign-up> button {
+    padding-block: 7px;
+    padding-inline: 20px;
+    background-color: rgb(9, 223, 27);
+    color: white;
+    margin-left: 78em;
+    margin-top: -2em;
+    display: flex;
+    position: absolute;
+    
+}
+.Right-menu  {
+    margin-left: 40em;
+    margin-top: -2em;
+    gap: 50px;
+    
+   
+}
+
+.frame-1 {
+  width: 100%;
+  padding-bottom: 6em;
+  padding-top: 3em;
+  margin: 0 auto;
+  background-color: silver;
+
+
+}
+.illustration-1{
+    margin-top: -20em;
+    margin-left: 47em;
+    
+}
+
+.span {
+    margin-left: 80px;
+    margin-top: 20px;
+    color: green;
+}
+h1 {
+    margin-left: 80px;
+    margin-top: 60px;
+    font-size: 50px;
+}
+p { 
+    margin-left: 80px;  
+    margin-top: 20px;
+}
+button {
+    margin-left: 80px;
+    margin-top: 20px;
+    border: none;
+    padding-block: 1em;
+    padding-inline: 1em;
+    background-color: green;
+    color: white;
+}
+.Clients {
+    position: relative;
+    
+}
+.Clients> h1 {
+    color: rgb(10, 10, 10);
+    text-align: center;
+}
+.Clients > p {
+    color: rgb(15, 15, 15);
+    text-align: center;
+    margin-top: 0;
+}
+.Clients-logo {
+    gap: 10em;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+.Clients > h2 {
+    color: rgb(15, 15, 15);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.Clients > p {
+    color: rgb(15, 15, 15);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.Clients-logo2 {
+    gap: 300px;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    background-color: none
+  
+    
+}
+.contains {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+
+}
+.contains > h1 {
+    font-size: 18px;
+    background-color: white;
+    
+}
+.unlock {
+  background-color: none;
+
+}
+.frame-6 > h1 {
+    margin-left: 400px;
+    color: rgb(10, 9, 9);
+    margin-top: -250px;
+}
+.frame-6 > p {
+    margin-left: 400px;
+    color: rgb(10, 9, 9);
+    font-size: 12px;
+    
+   
+}
+.frame-6 > button {
+    margin-left: 400px;
+    color: white;
+    font-size: 12px;
+    background-color: #28CB8B;
+    
+}
+
+.Achievements > h3 {
+    color: rgb(7, 6, 6);
+    margin-top:  140px;
+    margin-left: 40px;
+  position: absolute;
+}
+.Achievements > span {
+    color: rgb(20, 202, 20);
+    margin-top:  190px;
+    margin-left: 40px;
+  position: absolute;
+}
+.Achievements> p {
+    color: rgb(14, 15, 14);
+    margin-top:  220px;
+    margin-left: 40px;
+  position: absolute;
+  font-size: 12px;
+}
+.Achievements {
+    background-color: silver;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+.Count {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+    text-align: center;
+    background-color: silver;
+    margin-bottom: 20px;
+    padding-top: -50em;
+}
+.icon1  {
+  margin-left: 400px;
+    margin-right: -50px;
+   
+}
+.icon1 > h1 {
+    margin-top: 100px;
+  
+}
+.icon2 > h1 {
+    margin-top: 100px;
+}
+  
+.icon3 > h1 {
+    margin-left: 450px;
+    margin-right: -50px;
+    margin-top: -0.5em;
+
+}
+.icon2 > p {
+    margin-top: -5px;
+    margin-bottom: 50px;
+}
+.icon1 > p {
+    margin-top: -4px;
+    margin-bottom: 50px;
+}
+.icon3 > p {
+margin-top: -0.5em;
+margin-bottom: 50px;
+    margin-left: 450px;
+  
+}
+.icon3 > h1 {
+    margin-top: -0.5em;
+    margin-bottom: 50px;
+}
+.icon4 > p {
+    margin-top: -3em;
+    margin-bottom: 50px;
+    margin-left: 100px;
+   
+}
+.img {
+    margin-left: 810px;
+    margin-top: -15em;
+    
+}
+.img2 {
+    margin-left: 780px;
+    margin-top: 60px;
+}
+.img3 {
+    margin-left: 450px;
+    margin-top: -30px;
+    
+}
+.img4 {
+    margin-left: 440px;
+    margin-top: -150px;
+}
+    
+
+.Calender {
+    background-color: none;
+    position: relative;
+    margin-top: 220px;
+    display: flex;
+    margin-left: 250px;
+    margin-right: 145px;
+}
+.Calender > .images {
+    margin-left: -10em;
+    margin-top: 3em;
+
+}
+.frame-6 > h1 {
+    font-size: 26px;
+    position: relative;
+}
+.frame-6 > p {
+    font-size: 12px;
+    position: relative;
+}
+.Customers {
+    background-color: silver;
+    padding-bottom: 1em;
+}
+.Customers > p {
+    margin-left: 50px;
+    margin-right: 240px;
+    position: relative;
+  
+}
+.Customers> Customers-design {
+    margin-left: 3em;
+    margin-top: 5em;
+    margin-right: 60rem;
+}
+
+  
+.frame-11 > p {
+    margin-left: 20em;
+    margin-top: -250px;
+    color: black;
+    font-size: 16px;
+
+}
+.tim > h1 {
+    margin-left: 12.5em;
+    margin-top: 10px;
+    color: green;
+    font-size: 25px;
+}
+.tim > p {
+    margin-left: 20em;
+    margin-top: 1em;
+    color: rgb(10, 10, 10);
+   
+}
+.logos {
+    margin-left: 20em;
+    margin-top: 10px;
+    gap: 50px;
+    justify-content: left;
+    display: flex;  
+    color: green; 
+}
+
+.market > h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+.market > p {
+    text-align: center;
+    margin-top: 1px;
+}
+.frame-15 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5em;
+    margin-left: 7em;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.button1 > button {
+display: flex;
+   margin-left: 10em;
+   margin-top: -50px;
+   text-align: center;   
+   border-radius: 10px;
+  background-color: rgb(218, 211, 211);
+  color: black;
+padding-bottom: 50px;
+position: relative;
+}
+.button2 > button {
+
+    margin-left: 38em;
+    margin-top: -10em;
+    display: flex;
+    position: relative;
+    text-align: center;   
+    border-radius: 10px;
+   background-color: rgb(218, 211, 211);
+   color: black;
+ padding-bottom: 50px;
+ 
+}
+.button3 > button {
+    margin-left: 65em;
+    position: relative;
+    margin-top: -8em;
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(218, 211, 211);
+    color: black;
+    padding-bottom: 50px;
+     
+    
+}
+.para > p {
+    margin-left: 12em;
+    margin-top: -1em;
+    color: green;
+    position: relative;
+    display: flex;
+}
+.parar > p {
+    margin-left: 58em;
+    margin-top: -2em;
+    color: green;
+    position: relative;
+    display: flex;
+}
+.parara > p {
+    margin-left: 36em;
+    margin-top: -2em;
+    color: green;
+    position: relative;
+}
+.pelle {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-top: 90px;
+    background-color: silver;
+   
+}
+
+.footer {
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    padding-bottom: 4em;
+    padding-top: 40px;
+    width: 100%;
+    color: white;
+}
+
+.Social-icons {
+    margin-left: -66em;
+    margin-top: 200px;
+    gap: 20px;
+    display: flex;
+    position: relative;
+}
+
+.company > h1 {
+    margin-left: 6em;
+    font-size: 20px;
+    
+}
+.company > p {
+    margin-left: 8em;
+}
+.support> h2 {
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 200px;
+    
+}
+.support> p {
+    margin-left: 200px;
+}
+
+.stay > h3 {
+   margin-left: 70px;
+   margin-top: 50px;
+   font-size: 20px;
+   position: relative;
+}
+.stay > input[type="email"] {
+margin-left: 5em;
+    padding: 10px;
+    border-radius: 10px;
+  
+    position: relative;
+} 
+.nexcents > img {
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+    color: white;
+    margin-left: 2em;
+}
+.nexcents > p {
+    margin-top: 2em;
+    display: flex;
+    position: relative;
+    margin-left: 6em;
+    
+}
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+    }
+}
+@media (max-width: 600px) {
+    body {
+        font-size: 1rem;
+    }
+}

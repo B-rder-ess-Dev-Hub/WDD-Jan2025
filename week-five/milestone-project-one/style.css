@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* The line above already imports the required typeface for you */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Color variables declared below */
+
+:root {
+    --primary-color: #28CB8B;  /* Primary */
+    --secondary-color: #263238; /* Secondary */
+    --d_grey-color: #4D4D4D; /* D_Grey */
+    --grey-color: #717171; /* Grey */
+    --light-grey-color: #89939E; /* L_Grey */
+    --white-color: #FFFFFF; /* White */
+    --silver-background-color: #F5F7FA; /* Silver background*/
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--silver-background-color); /* Remove this line. It's just an example to show you how to use the color variables */
+}
+
+/* The rest of your CSS goes here */

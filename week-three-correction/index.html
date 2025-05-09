@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Blue section -->
+      <section class="blue-section">
+          <h1 class="logo">Logo</h1>
+
+        <div class="image-container">
+          <img
+            src="./assets/bgImage.png"
+            alt="image of a  lady running on a threadmill"
+          />
+        </div>
+      </section>
+
+      <!-- White section -->
+      <section class="white-section">
+        <div class="back">
+          <i class="fa-solid fa-chevron-left"></i>
+          <p>Back</p>
+        </div>
+
+        <div class="main-content">
+          <div>
+            <h2>Account Login</h2>
+            <p>
+              If you are already a member you can login with your email address
+              and password.
+            </p>
+          </div>
+
+          <form>
+            <!-- Email input -->
+            <div class="input-container">
+              <label for="email">Email address</label>
+              <input class="input-field" type="email" name="email" id="email" />
+            </div>
+
+            <!-- Password Input -->
+            <div class="input-container">
+              <label for="password">Password</label>
+              <input class="input-field" type="password" name="password" id="password" />
+            </div>
+
+            <div class="input-container">
+              <input type="checkbox" name="remember-me" id="remember-me" checked/>
+              <label for="remember-me">Remember me</label>
+            </div>
+
+              <button>Register Account</button>
+          </form>
+
+          <div class="sign-up-container">
+            <p>Dont have an account ? <a href="#">Sign up here</a></p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

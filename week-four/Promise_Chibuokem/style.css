@@ -1,0 +1,204 @@
+*{
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif ; 
+}
+  
+section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:rgb(29, 29, 29);
+
+}
+ section header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+}
+
+ section header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section header ul li{
+    list-style: none ;
+    margin-left: 1em;
+}
+
+section header ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1em;
+    
+} 
+section header ul li a img{
+    background-color: rgb(29, 29, 29);
+}
+section .profile-pic img{
+color: aliceblue;
+border-radius: 50%;
+} 
+
+ section header ul li button{
+    background: #4584ef;
+    border: none;
+    outline: none;
+    padding: 2em 5em;
+    color: rgb(78, 78, 78);
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: 1.5em;
+    cursor: pointer;
+} 
+ section .heading{
+    justify-content: center;
+    font-size: 3em;
+    margin: 0.2em;
+ }
+ section .main{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 17em;
+
+} 
+ h1{
+    font-size: 5em;
+    color: aliceblue;
+    font-family:'Times New Roman', Times, sans-serif;
+    font-weight: 200;
+    
+ }   
+section .main img{
+    color: aliceblue;
+    
+}
+section .main .searchBox{
+    position: relative;
+    width: 100%;
+    margin-block: 2em;
+    border: none;
+    outline: none;
+    border: 0.1em solid transparent;
+    
+}
+section .main .searchBox .search{
+    width: 100%;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 0em;
+    border-radius: 2em;
+    border: 0.1em solid;
+    background-color: rgb(91, 90, 90);
+    outline: none;
+    font-size: 1em;
+    /* margin-top: 2em; */
+}
+section .main .searchBox .icons{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 0.8em 1.4em;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;    
+}
+section .main .searchBox .icons .mic{
+    margin-left: 40em;
+}
+section .main .searchBox .icons .lens{
+    background-color: rgb(91, 90, 90);
+}
+section .main .buttons{
+    margin-top: 1em;
+    color: #000;
+}
+section .main .buttons button{
+    margin: 0em 0.5em;
+    padding: 0.8em 1.4em;
+    color: aliceblue;
+    font-size: 0.8em;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.4em;
+    border: 0.1em solid transparent;
+    outline: none;
+    background-color: #343434;
+
+}
+section .main .buttons button:hover{
+    border: 0.1em solid black;
+}
+section .main .Languages{
+    display: flex;
+    margin-top: 2em;
+}
+section .main .Languages li{
+    list-style: none;
+    margin: 0em 0.8em 0;
+    font-size: 1em;
+    color: aliceblue;
+}
+section .main .Languages li a{
+    text-decoration: none;
+    color: rgb(139, 168, 207);
+}
+section .main .Languages li a:hover{
+    text-decoration: underline;
+ }
+ section .footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #000;
+ } 
+ section .footer .row .country{
+    color: aliceblue;
+ }
+ section .footer .row{
+    padding: 0.5em 1em;
+    border-top: 0.001em solid rgb(133, 133, 133);
+ }
+ section .footer .row.row2{
+    display: flex;
+    justify-content: space-between;
+ }
+ section .footer .row.row2 ul{
+    display: flex;
+ }
+ section .footer .row.row2 ul li{
+    list-style: none;
+ }
+ section .footer .row.row2 ul li a{
+    text-decoration: none;
+    font-size: 1em;
+    color: aliceblue;
+    margin-right: 1.5em; 
+    
+ }
+  
+  section .footer .row.row2 ul:nth-child(2) li a{
+    text-decoration: none;
+    font-size: 1em;
+    color: aliceblue;
+    margin-right: 10em;
+    margin-left: 0em;
+ }
+  
+.leaf-image{
+    color:black;
+} 

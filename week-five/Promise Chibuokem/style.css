@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* The line above already imports the required typeface for you */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Color variables declared below */
+
+:root {
+    --primary-color: #28CB8B;  /* Primary */
+    --secondary-color: #263238; /* Secondary */
+    --d_grey-color: #4D4D4D; /* D_Grey */
+    --grey-color: #717171; /* Grey */
+    --light-grey-color: #89939E; /* L_Grey */
+    --white-color: #FFFFFF; /* White */
+    --silver-background-color: #F5F7FA; /* Silver background*/
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--silver-background-color); /* Remove this line. It's just an example to show you how to use the color variables */
+}
+
+/* The rest of your CSS goes here */
+/* SECTION ONE */
+/* NAVIGATION BAR */
+*{
+    text-decoration: none;
+}
+section .nav-bar{
+    background-color: #F5F7FA;
+    padding-inline: 1em;
+    padding-top: 2em;
+    
+}
+section .nav-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    color: #263238;
+    width: 6.96em;
+    height: 1.29em;
+
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-inline: 3em;
+}
+li a{
+    color: #18191F;
+    font-size: 1em;
+    font-weight:500;
+    margin-right: 0.5em;
+}
+button.login{
+margin-left: 1em;
+border-radius: 0.5em;
+padding: 0.6em;
+width: 5.68em;
+}
+button.Sign-Up{
+    background-color: #4CAF4F;
+    margin-inline: 0.5em 2em;
+    border-radius: 0.5em;
+    padding: 0.6em;
+    width: 5.68em;
+    }
+button.login a{
+color: #4CAF4F;
+font-weight: 500;
+font-size: 0.875em;
+}
+button.Sign-Up a{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 0.875em;
+}
+section .space-1{
+    background-color: red;
+}
+/* BOX 2 */
+section .box-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 4em;
+    padding-block: 2em;
+    margin-inline: 2em;
+}
+section .box-2-text .h1{
+    font-size: 4em;
+    font-weight: 600;
+} 
+section .box-2-text .h2{
+    font-size: 4em;
+    color: #4CAF4F;
+}
+section .box-2-text p{
+    color: #717171;
+    padding-block: 1em;
+}
+button.Register{
+    background-color: #4CAF4F;
+    margin-inline: 0.5em 2em;
+    border-radius: 0.5em;
+    padding: 0.6em;
+    width: 8em;
+    }
+    button.Register a{
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 0.875em;
+    }
+    /* box 3 */
+    section .box-3{
+        padding: 2em;
+    }
+    section .box-3 h2{
+        display: flex;
+        justify-content: center;
+    }
+    section .box-3 p{
+        display: flex;
+        justify-content: center;
+    }
+    /* box 4 */
+    section .box-4-icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1em;
+    
+    }
+     section .box-4-icons li{
+        list-style: none;
+        display: inline-block;
+        margin-right: 5em;
+        padding-right: 0;
+        padding-left: 1em;
+    }
+    /* box 5 */
+    section .box-5{
+        padding: 2em;
+    }
+    section .box-5 h2{
+        display: flex;
+        justify-content: center;
+    }
+    section .box-5 p{
+        display: flex;
+        justify-content: center;
+    }
+    /* box 6 */
+    section .box-6{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 8em;
+        gap: 8em;
+    }
+    section .box-6 h3{
+        align-self: center;
+    }
+    /* box 7 */
+    section .box-7{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 4em;
+        padding-block: 2em;
+        margin-inline: 2em;
+    }
+    section .box-7-text .h2-box-7{
+        
+    } 
+    section .box-7-text .h3-box-7{
+         color: #4CAF4F;
+    }
+    section .box-7-text p{
+        color: #717171;
+        padding-block: 1em;
+    }
+    button.Learn-More{
+        background-color: #4CAF4F;
+        margin-inline: 0.5em 2em;
+        border-radius: 0.5em;
+        padding: 0.6em;
+        width: 8em;
+        }
+        button.Learn-More a{
+            color: #FFFFFF;
+            font-weight: 500;
+            font-size: 0.875em;
+        }
+        /* box8 */
+        section .box-8{
+            display: flex;
+            justify-content: space-between;
+            padding-inline: 7em;
+            padding-block: 3em;
+            background-color: #F5F7FA;
+        }
+        
+        section .box-8 .box-8-parent-2 .box-8-parent-2-sub-parent{
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 2em;
+        }
+        section .box-8 .box-8-parent-2 .box-8-parent-2-sub-parent-2{
+            display: flex;
+            justify-content: space-between;
+        }
+        section .box-8 .box-8-parent-3 .box-8-parent-3-sub-parent-1{
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 2em;
+        } 
+        section .box-8 .box-8-parent-3 .box-8-parent-3-sub-parent-2{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /*box  9*/
+        section .box-9{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-inline: 5em;
+            margin-inline: 2em;
+            background-color: #FFFFFF;
+            width: 90em;
+            height: 27.0875;
+        }
+       
+        section .box-9-text .h3-box-9{
+             color: #4CAF4F;
+        }
+        section .box-9-text p{
+            color: #717171;
+            padding-block: 1em;
+        }
+        button.Learn-More{
+            background-color: #4CAF4F;
+            margin-inline: 0.5em 2em;
+            border-radius: 0.5em;
+            padding: 0.6em;
+            width: 8em;
+            }
+            button.Learn-More a{
+                color: #FFFFFF;
+                font-weight: 500;
+                font-size: 0.875em;
+            }
+            
+            /*box 10 */
+            section .box-10{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-inline: 4em;
+                padding-block: 2em;
+                margin-inline: 2em;
+                width: 90em;
+                height: 24.375em;
+                
+                 
+            }
+             
+            section .box-10-text .h4-box-10{
+                 color: #4CAF4F;
+                 padding-block: 1em;
+            }
+            section .box-10-text .box-10-p1{
+                color: #717171;
+            }
+            section .box-10-text .box-10-p2{
+                color: #717171;
+                padding-block: 0;
+            }
+            section .box-10-text .box-4-10-icons{
+                 display: flex;
+                 margin-right: 0em; 
+                 justify-content: space-between;
+            }
+            section .box-10-text .box-4-10-icons a p{
+                color: #4CAF4F;
+            }
+              
+            /* box 11 */
+            section .box-11{
+                padding: 2em;
+            }
+            section .box-11 h2{
+                display: flex;
+                justify-content: center;
+                font-size: 2.25em;
+                color: #4D4D4D;
+            }
+            section .box-11 p{
+                display: flex;
+                justify-content: center;
+            }
+            /* box 12 */
+            section .box-12{
+                justify-content: space-between;
+                padding-inline: 10em;
+            }
+            section .box-11-12{
+                width: 90em;
+                height: 31.625;
+                background-color: #FFFFFF;
+            }
+            /* box 13 */
+section .box-13{
+                  display: flex;
+                 justify-content: center;
+                 width: 90em;
+                 height: 18.75;
+                 background-color: #F5F7FA;
+                 padding-block: 2em;
+                
+                  
+            }
+            section .box-13-text .h1-box-13{
+                display: flex;
+                justify-content: center;
+                font-size: 4em;
+                 
+            }
+            section .box-13-text .h2-box-13{
+                display: flex;
+                justify-content: center;
+                font-size: 4em;
+                 
+            }
+            
+            
+            button.Get-a-demo{
+                background-color: #4CAF4F;
+                margin-inline: 17em;
+                border-radius: 0.5em;
+                padding-inline: 2em;
+                padding-block: 0.875;
+                width: 11.125em;
+                height: 3.25em;
+                margin-block: 2em;
+                border: none;
+                 
+                 
+                
+                }
+                button.Get-a-demo a{
+                    color: #FFFFFF;
+                    font-weight: 500;
+                    font-size: 0.875em;
+                }
+                button.Get-a-demo a img{
+                    color: #FFFFFF;
+                    margin-left: 0.5em;
+                   
+                }
+                /* box 14 */
+                section .box-14{
+                     display: flex;
+                     justify-content: space-between;
+                     color: #FFFFFF;
+                     background-color: #263238;
+                     padding-inline: 7em;
+                     padding-block: 3em;
+                     width: 90em;
+                }
+                section .box-14 .box-14-logo-box p{
+                    color: #F5F7FA;
+                }
+                section .box-14 .box-14-logo-box .logo-14{
+                    padding-bottom: 2.5em;
+                }
+                section .box-14 .box-14-logo-box .image-14{
+                    padding-top: 1.5em;
+                }
+                section .box-14 .company-list{
+                    padding-left: 7em;
+                }
+                section .box-14 .company-list h4{
+                    font-size: 1.25em;
+                    padding-bottom: 1em;
+                }
+                section .box-14 .company-list p a{
+                    color: #F5F7FA;
+                    gap: 0em;
+                }
+                section .box-14 .support-list h4{
+                    font-size: 1.25em;
+                    padding-bottom: 1em;
+                }
+                section .box-14 .support-list p a{
+                    color: #F5F7FA;
+                    gap: 1em;
+                }
+                section .box-14 .up-to-date .up-to-date h4{
+                    font-size: 1.25;
+                }
+                section .box-14 .up-to-date .up-to-date-input{
+                    color: #D9DBE1;
+                    border-radius: 0.5em;
+                    width: 15.937em;
+                    height: 2.5em;
+                    margin-top: 2em;
+                    opacity: 20%;
+                    padding-left: 1em;
+                    
+                }
+                /* section .box-14 .up-to-date .up-to-date-input::placeholder{
+                    
+                    color: #D9DBE1;
+                }*/
+                 section .box-14 .up-to-date .up-to-date-input img{
+                    background-color:  red;
+                } 
+                
+                    
+ 
+            
+
+
+
+     

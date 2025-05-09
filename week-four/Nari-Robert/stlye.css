@@ -1,0 +1,206 @@
+.profile-container{
+    width: 15px;
+    height: 15px;
+    background-color: rgba(24, 24, 26, 0.247);
+display: flex;
+align-items: center;
+right: 10px;
+top: 10px;
+position: absolute;
+margin-top: 1%;
+border-radius: 30px;
+} 
+a {
+    color: rgb(180, 172, 172);
+    text-decoration: none;
+}
+.profile-img {
+width: 30px;
+height: 30px;
+border-radius: 30px;
+right: 5px;
+top: 10px;
+cursor: pointer;
+}
+header nav {
+text-align: right;
+word-spacing: 10px;
+    margin-right: 5%;
+    justify-content: flex-end;
+    padding: 20px 
+
+}
+body {
+    background-color: rgb(46, 45, 45);
+    
+}
+main {
+    position: absolute;
+    border-radius: 60px;
+    size: 100px;
+    justify-content: center;
+    width: 1000px;
+    height: 100px;
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+   flex-direction: column;
+   align-items: center;
+   display: flex;
+   margin-left: 10%;
+   margin-top: 5%;
+   
+   
+    
+
+}
+button {
+    color: rgb(233, 225, 225);
+    background-color: rgb(37, 36, 36);
+    padding: 5px;
+    margin-top: 30px;
+    border-radius: 10%;
+}
+input[type="text"] {
+    border-radius: 50px;
+    size: 100px;
+    justify-content: center;
+    width: 500px;
+    height: 30px;
+    padding: 2px;
+    text-align: center;
+    font-size: 18px;
+}
+footer a {
+ 
+    margin-top: 100%;
+    color: rgb(224, 217, 231);
+    padding: 1px;
+    display: rows;
+    position: relative;
+    width: 1px;
+    padding: 0px 0px;
+    margin-bottom: 100%;
+    font-size: 14px;
+    box-sizing: border-box;
+    justify-content: space-between;
+   
+    
+}
+footer {
+    background-color: rgb(27, 24, 24);
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    position: relative;
+    margin-top: 35%;
+    padding: 0px 0px;
+    margin-bottom: 100%;
+    font-size: 14px;
+    box-sizing: border-box;
+    gap: 1px;
+    
+   
+    
+   
+}
+.links {
+    outline: none;
+    color: red;
+}
+    
+
+
+h1 {
+    font-size: 100px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+}
+
+html, body {
+    height: 100%;
+    margin: 100;
+    display: flex;
+    flex-direction: column;
+   
+}
+hr {
+    width: 100%;
+    height: 0px;
+    background-color: red;
+    margin-bottom: 15px;
+   
+
+}
+.search-box input {
+    background-color: rgb(105, 101, 101);
+    border-radius: 50px;
+}
+.search-box {
+    position: relative;
+    width: 500px;
+    display: flex;
+    align-items: center;
+
+
+}
+.footer-left span {
+    margin-left: 180px;
+    color: white;
+}
+.footer-right {
+   margin-right: 88px;
+   text-align: right;
+   gap: 20px;
+   
+}
+.footer-left {
+    margin-left: 25px;
+    gap: 20px;
+}
+p  {
+    color: white;
+    margin-left: 25px;
+    margin-top: 1px;
+}
+h3 {
+    font-size: 14px;
+    color: white;
+}
+h3 a {
+    color: rgb(33, 19, 153);
+}
+
+
+.mic {
+    float: left;
+    margin-left: 380px;
+    margin-top: 200px;
+  
+
+}
+.search {
+   margin-right: 450px;
+   margin-top: 200px;
+   
+}
+.camera-retro {
+    float: left;
+    margin-left: 450px;
+    margin-top: 200px;
+   
+}
+.icon {
+    position: absolute;
+    font-size: 16px;
+    color: white;
+}
+.google-apps {
+    float: right;
+    right: 25px;
+    top: 15px;
+    position: absolute;
+    font-size: 20px;   
+}

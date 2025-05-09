@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    color: #656263;
+
+}
+
+input[type="email"]{
+    width: 92%;
+    padding: 3%;
+    color: #cabba9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    
+}
+
+input[type="password"]{
+    width: 92%;
+    padding: 3%;
+    color: #cabba9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    }
+
+input[type="submit"]{
+    width: 100%;
+    padding: 3%;
+    color: white;
+    background-color: #006f9a;
+    border: none;
+}
+
+password {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+        
+    width: 600px;
+    height: 500px;
+    
+    padding: 15px;
+    border: 1px solid #007da6;
+    background: white;
+
+}
+body{
+    background-color: #0180ab;
+    justify-content: center;
+    display: flex;
+    
+}
+h3{
+    text-align: center;
+    font-weight: 200;
+}
+
