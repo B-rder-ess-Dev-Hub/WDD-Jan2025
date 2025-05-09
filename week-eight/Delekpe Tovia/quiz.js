@@ -23,24 +23,28 @@
     // TODO 4: Declare disable & enable functions to set or remove the "disabled" attribute from a given button element
     // disable(button) should set the button element's attribute "disabled" to the value ""
     // enable(button) should remove the attribute "disabled" from the button element
-    function disable(button){
+    const disable = button => 
         button.setAttribute("disabled", "");
-    }
-    function enable(button){
+    
+    const enable = button => 
         button.removeAttribute("disabled");
-    }
+    
 
     // TODO 5: Declare an isCorrect function that compares a guess to the right answer
     // isCorrect(guess) should return true if the guess matches the fact's answer
-    function isCorrect(guess){
-        return guess === fact.answer;
-    }
+    const isCorrect = guess => 
+        (guess === "true") === fact.answer;
+    
 
 
     // TODO 6A: Use a for loop to add a click event listener to each of the optionButtons
     for (const button of optionButtons){
-        button.addEventListener( 'click', function (){
-        console.log(optionButton);
+        button.addEventListener( "click", function (){
+        console.log(optionButtons);
+        optionButtons.forEach(button => 
+            enable(button));
+        optionButtons.forEach(button => 
+            disable(button));
         });}
             // TODO 6B: Within the event handler function, display the fact's explanation by setting the text of the explanation element
             explanation.textContent =  "Java creates applications that run in a virtual machine or browser while JavaScript code is run on a browser only."
@@ -48,9 +52,7 @@
              
             // TODO 7: Within the event handler function, 
             // Use a for loop to disable all the option buttons
-           for (const buttons of optionButtons){
-            buttons.disabled = true;
-           }
+           
 
            
 
@@ -58,3 +60,21 @@
             // Get the guessed value from the clicked button
             // Use a conditional to compare the guess to the fact's answer
             // and add the "correct"/"incorrect" class as appropriate
+            for (const button of optionButtons){
+            button.addEventListener( "click", function (event){
+                const guess = event.target.textContent;
+               if (isCorrect (guess)) {
+                   explanation.textContent = "correct";
+                   
+                    }else {
+                       explanation.textContent = "Wrong, try again!";
+                       
+                    }})
+                }
+
+            
+            
+                  
+
+                    
+
