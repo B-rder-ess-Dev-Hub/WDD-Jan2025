@@ -1,0 +1,9 @@
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+@import "tailwindcss";
+/* Index.css */
+
+.heading-text{
+    color: chartreuse;
+    font-style: italic;
+}
