@@ -91,4 +91,4 @@ Pick **one** of the three apps below, build it, and deploy it to Vercel. Use Loc
 
 ---
 
-**Choose ONE app to build and share the links by Sunday night! Good luck! 🎉**
+**Choose ONE app to build and share the links by 11:59 PM on Tuesday, June 03, 2025. Good luck! 🎉**
