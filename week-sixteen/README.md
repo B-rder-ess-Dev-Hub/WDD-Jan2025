@@ -18,6 +18,7 @@ Pick **one** of the three apps below, build it, and deploy it to Vercel. Use Loc
 - Add Sign In and Sign Up pages for users.
 - Store workouts in Supabase (each user sees only their own workouts).
 - Implement protected routes so only signed-in users can see and manage their workouts.
+- Optionally, add a landing page through which users can login and sign up.
 
 ---
 
@@ -35,6 +36,7 @@ Pick **one** of the three apps below, build it, and deploy it to Vercel. Use Loc
 - Add Sign In and Sign Up pages for users.
 - Store recipes in Supabase (each user sees only their own recipes).
 - Implement protected routes so only signed-in users can see and manage their recipes.
+- Optionally, add a landing page through which users can login and sign up.
 
 ---
 
@@ -51,6 +53,7 @@ Pick **one** of the three apps below, build it, and deploy it to Vercel. Use Loc
 - Add Sign In and Sign Up pages for users.
 - Store notes in Supabase (each user sees only their own notes).
 - Implement protected routes so only signed-in users can see and manage their notes.
+- Optionally, add a landing page through which users can login and sign up.
 
 ---
 
