@@ -1,28 +1,54 @@
-import Link from 'next/link'
-import { login, signup } from './actions'; 
+import { login, signup } from './actions'
 
 export default function LoginPage() {
   return (
-    <form className="space-y-4">
-      <label htmlFor="email">Email:</label>
-      <input id="email" name="email" type="email" required />
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-purple-500 via-pink-500 to-red-500">
+      <form className="text-center bg-white p-8 rounded shadow-md w-full max-w-sm">
+        <h1 className="text-4xl mb-8 font-extrabold text-blue-950">
+          Login/Signup
+        </h1>
 
-      <label htmlFor="password">Password:</label>
-      <input id="password" name="password" type="password" required />
+        <div className="mb-4">
+          <label htmlFor="email" className="block mb-1 text-lg">
+            Email:
+          </label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            required
+            className="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
 
-      <div className="flex gap-4">
-        <button formAction={login}>Log in</button>
-        <button formAction={signup}>Sign up</button>
-      </div>
+        <div className="mb-6">
+          <label htmlFor="password" className="block mb-1 text-lg">
+            Password:
+          </label>
+          <input
+            id="password"
+            name="password"
+            type="password"
+            required
+            className="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
 
-      <div className="mt-4">
-        <Link href="/login" className="text-blue-500 underline block mb-2">
-          Sign In
-        </Link>
-        <Link href="/login" className="text-blue-500 underline">
-          Sign Up
-        </Link>
-      </div>
-    </form>
+        <div className="flex justify-center space-x-4">
+          <button
+            formAction={login}
+            className="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+          >
+            Log in
+          </button>
+          <button
+            formAction={signup}
+            className="px-6 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition"
+          >
+            Sign up
+          </button>
+        </div>
+      </form>
+    </div>
   )
 }
